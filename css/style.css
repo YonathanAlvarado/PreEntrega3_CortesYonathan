@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer {
+  background-color: #191c1f;
+  padding: 1rem;
+  text-align: center;
+}
+.footer__social-icons {
+  margin-bottom: 1rem;
+}
+.footer__social-icons .footer__social-icon-link {
+  width: 40px;
+  height: auto;
+  margin-right: 0.5rem;
+}
+.footer__copyright {
+  color: white;
+}
+
+.footer__social-icons a {
+  text-decoration: none;
+  outline: none;
+}
+
+.hero-bg {
+  background-color: rgb(59, 59, 59);
+  color: white;
+}
+
+.Background {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.Background .background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(138, 138, 138, 0.5);
+  z-index: 1;
+}
+.Background .background-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=style.css.map */
